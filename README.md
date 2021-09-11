@@ -18,3 +18,11 @@ ____
     + Added seperators styles
     + Added comfortable to use color defines from https://stackoverflow.com/questions/4053837/colorizing-text-in-the-console-with-c
     + Added cel namespace for easy import to your app (Just include funcs.h from CEL folder)
+
+
+___
+
++ Todo
+  + Tables
+  + Window name
+  + More styles
