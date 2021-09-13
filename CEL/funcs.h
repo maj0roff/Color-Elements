@@ -37,4 +37,6 @@ namespace cel
 	void printbracket(string inbracket, string text, int color);
 	void seperator_with_text(string text, int text_color, int seperator_color, int style, int end_startsymcol);
 	void seperator(int seperator_color, int style, int end_startsymcol);
+	void creeper(int color);
+	void spacing();
 }
