@@ -78,3 +78,23 @@ void cel::seperator(int seperator_color, int style, int end_startsymcol)
 		cout << "# \n";
 	}
 }
+
+void cel::creeper(int color)
+{
+	SetConsoleTextAttribute(handle, color);
+	wcout << "######      ###### \n";
+	wcout << "######      ###### \n";
+	wcout << "######      ###### \n";
+	wcout << "      ######       \n";
+	wcout << "   ############    \n";
+	wcout << "   ############    \n";
+	wcout << "   ############    \n";
+	wcout << "   ###      ###    \n";
+	wcout << "   ###      ###    \n";
+	cel::reset();
+}
+
+void cel::spacing()
+{
+	cout << " \n";
+}
