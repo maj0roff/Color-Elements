@@ -1,9 +1,10 @@
 #include <iostream>
 #include <Windows.h>
 #include <string>
+#include <cstring>
 
 static const HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
-
+const char* c_str();
 
 // colors (from https://stackoverflow.com/questions/4053837/colorizing-text-in-the-console-with-c)
 #define color_black      0
@@ -39,4 +40,5 @@ namespace cel
 	void seperator(int seperator_color, int style, int end_startsymcol);
 	void creeper(int color);
 	void spacing();
+	void windowname(string name);
 }
