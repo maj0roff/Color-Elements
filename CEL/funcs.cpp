@@ -94,6 +94,11 @@ void cel::creeper(int color)
 	cel::reset();
 }
 
+void cel::windowname(string name)
+{
+	SetConsoleTitleA(name.c_str());
+}
+
 void cel::spacing()
 {
 	cout << " \n";
